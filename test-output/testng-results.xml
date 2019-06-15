@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45496" started-at="2019-04-21T07:04:14Z" finished-at="2019-04-21T07:05:00Z">
+    <groups>
+    </groups>
+    <test name="Login guru on Chrome" duration-ms="45496" started-at="2019-04-21T07:04:14Z" finished-at="2019-04-21T07:05:00Z">
+      <class name="com.bankguru.testcase.NewCustomerScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeClass" is-config="true" duration-ms="8216" started-at="2019-04-21T14:04:26Z" finished-at="2019-04-21T14:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.46]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/v4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="1213" started-at="2019-04-21T14:04:34Z" finished-at="2019-04-21T14:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_01()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_01" duration-ms="133" started-at="2019-04-21T14:04:35Z" finished-at="2019-04-21T14:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_01 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="861" started-at="2019-04-21T14:04:36Z" finished-at="2019-04-21T14:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_02()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_02" duration-ms="180" started-at="2019-04-21T14:04:36Z" finished-at="2019-04-21T14:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_02 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="1540" started-at="2019-04-21T14:04:37Z" finished-at="2019-04-21T14:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_03()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_03" duration-ms="200" started-at="2019-04-21T14:04:38Z" finished-at="2019-04-21T14:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_03 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="570" started-at="2019-04-21T14:04:38Z" finished-at="2019-04-21T14:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_04()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_04" duration-ms="137" started-at="2019-04-21T14:04:39Z" finished-at="2019-04-21T14:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_04 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="581" started-at="2019-04-21T14:04:39Z" finished-at="2019-04-21T14:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_05()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_05" duration-ms="153" started-at="2019-04-21T14:04:40Z" finished-at="2019-04-21T14:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_05 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="586" started-at="2019-04-21T14:04:40Z" finished-at="2019-04-21T14:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_06()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_06" duration-ms="110" started-at="2019-04-21T14:04:40Z" finished-at="2019-04-21T14:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_06 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="1465" started-at="2019-04-21T14:04:41Z" finished-at="2019-04-21T14:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_08()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_08" duration-ms="136" started-at="2019-04-21T14:04:42Z" finished-at="2019-04-21T14:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_08 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="575" started-at="2019-04-21T14:04:42Z" finished-at="2019-04-21T14:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_09()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_09" duration-ms="194" started-at="2019-04-21T14:04:43Z" finished-at="2019-04-21T14:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_09 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="506" started-at="2019-04-21T14:04:43Z" finished-at="2019-04-21T14:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_10()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_10" duration-ms="176" started-at="2019-04-21T14:04:43Z" finished-at="2019-04-21T14:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_10 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="603" started-at="2019-04-21T14:04:44Z" finished-at="2019-04-21T14:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_11()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_11" duration-ms="128" started-at="2019-04-21T14:04:44Z" finished-at="2019-04-21T14:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_11 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="527" started-at="2019-04-21T14:04:44Z" finished-at="2019-04-21T14:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_12()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_12" duration-ms="154" started-at="2019-04-21T14:04:45Z" finished-at="2019-04-21T14:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_12 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="496" started-at="2019-04-21T14:04:45Z" finished-at="2019-04-21T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_13()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_13" duration-ms="163" started-at="2019-04-21T14:04:46Z" finished-at="2019-04-21T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_13 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="507" started-at="2019-04-21T14:04:46Z" finished-at="2019-04-21T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_14()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_14" duration-ms="215" started-at="2019-04-21T14:04:46Z" finished-at="2019-04-21T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_14 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="521" started-at="2019-04-21T14:04:46Z" finished-at="2019-04-21T14:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_15()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_15" duration-ms="133" started-at="2019-04-21T14:04:47Z" finished-at="2019-04-21T14:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_15 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="484" started-at="2019-04-21T14:04:47Z" finished-at="2019-04-21T14:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_16()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_16" duration-ms="172" started-at="2019-04-21T14:04:48Z" finished-at="2019-04-21T14:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_16 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="506" started-at="2019-04-21T14:04:48Z" finished-at="2019-04-21T14:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_17()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_17" duration-ms="172" started-at="2019-04-21T14:04:48Z" finished-at="2019-04-21T14:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_17 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="933" started-at="2019-04-21T14:04:48Z" finished-at="2019-04-21T14:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_18()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_18" duration-ms="130" started-at="2019-04-21T14:04:49Z" finished-at="2019-04-21T14:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_18 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="955" started-at="2019-04-21T14:04:49Z" finished-at="2019-04-21T14:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_19()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_19" duration-ms="138" started-at="2019-04-21T14:04:50Z" finished-at="2019-04-21T14:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_19 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="965" started-at="2019-04-21T14:04:51Z" finished-at="2019-04-21T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_20()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_20" duration-ms="110" started-at="2019-04-21T14:04:52Z" finished-at="2019-04-21T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_20 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="755" started-at="2019-04-21T14:04:52Z" finished-at="2019-04-21T14:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_21()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_21" duration-ms="146" started-at="2019-04-21T14:04:52Z" finished-at="2019-04-21T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_21 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="525" started-at="2019-04-21T14:04:53Z" finished-at="2019-04-21T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_22()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_22" duration-ms="164" started-at="2019-04-21T14:04:53Z" finished-at="2019-04-21T14:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_22 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="492" started-at="2019-04-21T14:04:53Z" finished-at="2019-04-21T14:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_23()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_23" duration-ms="150" started-at="2019-04-21T14:04:54Z" finished-at="2019-04-21T14:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_23 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="511" started-at="2019-04-21T14:04:54Z" finished-at="2019-04-21T14:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_24()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_24" duration-ms="146" started-at="2019-04-21T14:04:54Z" finished-at="2019-04-21T14:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_24 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="473" started-at="2019-04-21T14:04:55Z" finished-at="2019-04-21T14:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_25()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_25" duration-ms="173" started-at="2019-04-21T14:04:55Z" finished-at="2019-04-21T14:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_25 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="493" started-at="2019-04-21T14:04:55Z" finished-at="2019-04-21T14:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_26()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_26" duration-ms="274" started-at="2019-04-21T14:04:56Z" finished-at="2019-04-21T14:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_26 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="522" started-at="2019-04-21T14:04:56Z" finished-at="2019-04-21T14:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_27()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_27" duration-ms="313" started-at="2019-04-21T14:04:56Z" finished-at="2019-04-21T14:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_27 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="486" started-at="2019-04-21T14:04:57Z" finished-at="2019-04-21T14:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_29()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_29" duration-ms="127" started-at="2019-04-21T14:04:57Z" finished-at="2019-04-21T14:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_29 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="beforeMethod" is-config="true" duration-ms="505" started-at="2019-04-21T14:04:57Z" finished-at="2019-04-21T14:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcase_30()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="testcase_30" duration-ms="2049" started-at="2019-04-21T14:04:58Z" finished-at="2019-04-21T14:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_30 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.testcase.NewCustomerScript@d8355a8]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-04-21T14:05:00Z" finished-at="2019-04-21T14:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.testcase.NewCustomerScript -->
+      <class name="com.bankguru.testcase.RegisterAccount">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bankguru.testcase.RegisterAccount@c038203]" name="beforeClass" is-config="true" duration-ms="7427" started-at="2019-04-21T14:04:14Z" finished-at="2019-04-21T14:04:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.46]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.guru99.com/v4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getAccountRegister()[pri:0, instance:com.bankguru.testcase.RegisterAccount@c038203]" name="getAccountRegister" duration-ms="3293" started-at="2019-04-21T14:04:22Z" finished-at="2019-04-21T14:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountRegister -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bankguru.testcase.RegisterAccount@c038203]" name="afterMethod" is-config="true" duration-ms="6" started-at="2019-04-21T14:04:25Z" finished-at="2019-04-21T14:04:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAccountRegister status=SUCCESS method=RegisterAccount.getAccountRegister()[pri:0, instance:com.bankguru.testcase.RegisterAccount@c038203] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.bankguru.testcase.RegisterAccount@c038203]" name="afterClass" is-config="true" duration-ms="892" started-at="2019-04-21T14:04:25Z" finished-at="2019-04-21T14:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.testcase.RegisterAccount -->
+    </test> <!-- Login guru on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

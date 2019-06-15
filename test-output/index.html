@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\LAP12160-local\eclipse-workspace\TestNG_POM_Nhutbm\src\test\java\runBankGuru.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.RegisterAccount" hash-for-method="getAccountRegister">getAccountRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_01">testcase_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_02">testcase_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_03">testcase_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_04">testcase_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_05">testcase_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_06">testcase_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_08">testcase_08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_09">testcase_09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_10">testcase_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_11">testcase_11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_12">testcase_12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_13">testcase_13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_14">testcase_14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_15">testcase_15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_16">testcase_16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_17">testcase_17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_18">testcase_18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_19">testcase_19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_20">testcase_20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_21">testcase_21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_22">testcase_22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_23">testcase_23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_24">testcase_24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_25">testcase_25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_26">testcase_26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_27">testcase_27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_29">testcase_29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bankguru.testcase.NewCustomerScript" hash-for-method="testcase_30">testcase_30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankguru.testcase.RegisterAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAccountRegister">
+                  </a> <!-- getAccountRegister -->
+                  <span class="method-name">getAccountRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankguru.testcase.NewCustomerScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_01">
+                  </a> <!-- testcase_01 -->
+                  <span class="method-name">testcase_01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_02">
+                  </a> <!-- testcase_02 -->
+                  <span class="method-name">testcase_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_03">
+                  </a> <!-- testcase_03 -->
+                  <span class="method-name">testcase_03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_04">
+                  </a> <!-- testcase_04 -->
+                  <span class="method-name">testcase_04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_05">
+                  </a> <!-- testcase_05 -->
+                  <span class="method-name">testcase_05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_06">
+                  </a> <!-- testcase_06 -->
+                  <span class="method-name">testcase_06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_08">
+                  </a> <!-- testcase_08 -->
+                  <span class="method-name">testcase_08</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_09">
+                  </a> <!-- testcase_09 -->
+                  <span class="method-name">testcase_09</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_10">
+                  </a> <!-- testcase_10 -->
+                  <span class="method-name">testcase_10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_11">
+                  </a> <!-- testcase_11 -->
+                  <span class="method-name">testcase_11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_12">
+                  </a> <!-- testcase_12 -->
+                  <span class="method-name">testcase_12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_13">
+                  </a> <!-- testcase_13 -->
+                  <span class="method-name">testcase_13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_14">
+                  </a> <!-- testcase_14 -->
+                  <span class="method-name">testcase_14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_15">
+                  </a> <!-- testcase_15 -->
+                  <span class="method-name">testcase_15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_16">
+                  </a> <!-- testcase_16 -->
+                  <span class="method-name">testcase_16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_17">
+                  </a> <!-- testcase_17 -->
+                  <span class="method-name">testcase_17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_18">
+                  </a> <!-- testcase_18 -->
+                  <span class="method-name">testcase_18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_19">
+                  </a> <!-- testcase_19 -->
+                  <span class="method-name">testcase_19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_20">
+                  </a> <!-- testcase_20 -->
+                  <span class="method-name">testcase_20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_21">
+                  </a> <!-- testcase_21 -->
+                  <span class="method-name">testcase_21</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_22">
+                  </a> <!-- testcase_22 -->
+                  <span class="method-name">testcase_22</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_23">
+                  </a> <!-- testcase_23 -->
+                  <span class="method-name">testcase_23</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_24">
+                  </a> <!-- testcase_24 -->
+                  <span class="method-name">testcase_24</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_25">
+                  </a> <!-- testcase_25 -->
+                  <span class="method-name">testcase_25</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_26">
+                  </a> <!-- testcase_26 -->
+                  <span class="method-name">testcase_26</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_27">
+                  </a> <!-- testcase_27 -->
+                  <span class="method-name">testcase_27</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_29">
+                  </a> <!-- testcase_29 -->
+                  <span class="method-name">testcase_29</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase_30">
+                  </a> <!-- testcase_30 -->
+                  <span class="method-name">testcase_30</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LAP12160-local\eclipse-workspace\TestNG_POM_Nhutbm\src\test\java\runBankGuru.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Login guru on Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;2.46&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://demo.guru99.com/v4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankguru.testcase.RegisterAccount&quot;/&gt;
+      &lt;class name=&quot;com.bankguru.testcase.NewCustomerScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login guru on Chrome --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login guru on Chrome (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAccountRegister')
+data.setCell(0, 2, 'com.bankguru.testcase.RegisterAccount')
+data.setCell(0, 3, 3293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase_30')
+data.setCell(1, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(1, 3, 2049);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase_27')
+data.setCell(2, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(2, 3, 313);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase_26')
+data.setCell(3, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(3, 3, 274);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcase_14')
+data.setCell(4, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(4, 3, 215);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase_03')
+data.setCell(5, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(5, 3, 200);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcase_09')
+data.setCell(6, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(6, 3, 194);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcase_02')
+data.setCell(7, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(7, 3, 180);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcase_10')
+data.setCell(8, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(8, 3, 176);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcase_25')
+data.setCell(9, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(9, 3, 173);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testcase_16')
+data.setCell(10, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(10, 3, 172);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testcase_17')
+data.setCell(11, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(11, 3, 172);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testcase_22')
+data.setCell(12, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(12, 3, 164);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcase_13')
+data.setCell(13, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(13, 3, 163);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testcase_12')
+data.setCell(14, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(14, 3, 154);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testcase_05')
+data.setCell(15, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(15, 3, 153);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testcase_23')
+data.setCell(16, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(16, 3, 150);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testcase_24')
+data.setCell(17, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(17, 3, 146);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testcase_21')
+data.setCell(18, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(18, 3, 146);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testcase_19')
+data.setCell(19, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(19, 3, 138);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testcase_04')
+data.setCell(20, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(20, 3, 137);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testcase_08')
+data.setCell(21, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(21, 3, 136);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testcase_15')
+data.setCell(22, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(22, 3, 133);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testcase_01')
+data.setCell(23, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(23, 3, 133);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testcase_18')
+data.setCell(24, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(24, 3, 130);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testcase_11')
+data.setCell(25, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(25, 3, 128);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testcase_29')
+data.setCell(26, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(26, 3, 127);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testcase_06')
+data.setCell(27, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(27, 3, 110);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testcase_20')
+data.setCell(28, 2, 'com.bankguru.testcase.NewCustomerScript')
+data.setCell(28, 3, 110);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.testcase.RegisterAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, 2.46, http://demo.guru99.com/v4)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getAccountRegister</span>
+                <span class="method-start">7432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=getAccountRegister status=SUCCESS method=RegisterAccount.getAccountRegister()[pri:0...)</span>
+                <span class="method-start">10726 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">10732 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.testcase.NewCustomerScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, 2.46, http://demo.guru99.com/v4)</span>
+                <span class="method-start">11624 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">19840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_01</span>
+                <span class="method-start">21053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">21186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_02</span>
+                <span class="method-start">22047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_03</span>
+                <span class="method-start">23768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">23969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_04</span>
+                <span class="method-start">24539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">24677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_05</span>
+                <span class="method-start">25258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">25411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_06</span>
+                <span class="method-start">25997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">26108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_08</span>
+                <span class="method-start">27573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">27709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_09</span>
+                <span class="method-start">28284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">28479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_10</span>
+                <span class="method-start">28985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">29161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_11</span>
+                <span class="method-start">29764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">29892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_12</span>
+                <span class="method-start">30419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">30574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_13</span>
+                <span class="method-start">31070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_14</span>
+                <span class="method-start">31741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_15</span>
+                <span class="method-start">32477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_16</span>
+                <span class="method-start">33095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">33268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_17</span>
+                <span class="method-start">33774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">33947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_18</span>
+                <span class="method-start">34880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">35010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_19</span>
+                <span class="method-start">35965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">36104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_20</span>
+                <span class="method-start">37069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">37180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_21</span>
+                <span class="method-start">37935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">38081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_22</span>
+                <span class="method-start">38606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">38771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_23</span>
+                <span class="method-start">39263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">39414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_24</span>
+                <span class="method-start">39925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">40071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_25</span>
+                <span class="method-start">40544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">40718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_26</span>
+                <span class="method-start">41211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">41486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_27</span>
+                <span class="method-start">42008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">42321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_29</span>
+                <span class="method-start">42807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">42934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testcase_30</span>
+                <span class="method-start">43439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">45489 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
